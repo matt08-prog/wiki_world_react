@@ -1,30 +1,23 @@
 import * as d3 from 'd3'
 import { useEffect } from 'react';
+
 import './App.css';
 
 function App() {
   console.log(window.innerWidth)
 
-  const fillStyle= {
-    margin: 0,
-    height: "100%",
-    width: "100%"
-  }
-
-  let width = 960,
-      height = 960,
-      diameter = width,
+  let width = window.innerWidth,
+      height = window.innerHeight,
+      diameter = window.innerWidth / 2.1,
       maxDepth = 5,
-      margin = 20
-
-  var color = d3.scaleLinear()
-      .domain([-1, maxDepth])
-      .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
-      .interpolate(d3.interpolateHcl);
-
-  var pack = d3.pack()
-      .size([diameter - margin, diameter - margin])
-      .padding(2);
+      margin = 20,
+      color = d3.scaleLinear()
+        .domain([-1, maxDepth])
+        .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+        .interpolate(d3.interpolateHcl),
+      pack = d3.pack()
+        .size([diameter - margin, diameter - margin])
+        .padding(2);
     
   useEffect(() => {
     var svg = d3.select("svg"),
@@ -110,7 +103,7 @@ function App() {
   return (
     <div className="App" >
         <svg width={width} height={height}>
-          <g transform={`translate(${diameter / 2},${diameter / 2})`}/>
+          <g transform={`translate(${diameter},${diameter / 2})`}/>
         </svg>
     </div>
   );
