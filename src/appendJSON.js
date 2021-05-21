@@ -35,7 +35,7 @@ export const AppendJSON = ({
 
   let getWikiData = (articleTitle) => {
     fetch(
-      `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=links&meta=&titles=${articleTitle}&pllimit=300&redirects`
+      `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=links&meta=&titles=${articleTitle}&pllimit=300&redirects&origin=*`
     )
       .then((resp) => resp.json())
       .then((data) => {

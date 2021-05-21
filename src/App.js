@@ -39,7 +39,7 @@ function App() {
 
   function beginApp(articleTitle, URITitle) {
     fetch(
-      `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=links&meta=&titles=${URITitle}&pllimit=300&redirects`
+      `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=links&meta=&titles=${URITitle}&pllimit=300&redirects&origin=*`
     )
       .then((resp) => resp.json())
       .then((data) => {
