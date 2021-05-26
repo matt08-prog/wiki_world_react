@@ -176,7 +176,7 @@ function App() {
         style={{
           textAlign: "center",
           position: "absolute",
-          left: "27%",
+          left: "20%",
           top: "50%",
           fontSize: "50px",
         }}
