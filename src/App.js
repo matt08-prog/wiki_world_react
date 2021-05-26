@@ -176,8 +176,7 @@ function App() {
         style={{
           textAlign: "center",
           position: "absolute",
-          left: "20%",
-          top: "50%",
+          margin: "auto",
           fontSize: "50px",
         }}
         className="UI label"
