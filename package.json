@@ -2,7 +2,7 @@
   "name": "svg-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/matt08-prog/wiki_world_react.git",
+  "homepage": "http://matt08.github.io/wiki_world_react",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.11.4",
