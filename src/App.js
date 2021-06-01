@@ -174,9 +174,12 @@ function App() {
       />
       <h1
         style={{
+          width: "100%",
+          display: "inline",
           textAlign: "center",
           position: "absolute",
-          margin: "auto",
+          margin: "auto auto",
+          top: "60%",
           fontSize: "50px",
         }}
         className="UI label"
@@ -185,9 +188,11 @@ function App() {
       </h1>
       <h1
         style={{
+          width: "100%",
+          display: "inline",
           textAlign: "center",
           position: "absolute",
-          left: "24%",
+          margin: "auto auto",
           top: "65%",
           fontSize: "50px",
         }}
