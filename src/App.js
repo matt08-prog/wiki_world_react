@@ -1,6 +1,13 @@
 import * as d3 from "d3";
 import { useEffect } from "react";
 import { Pack, Backup } from "./pack.js";
+import mouse1 from './mouse1.png'
+import closeClear from './close_clear.png'
+import backArrowClear from "./back_arrow_clear.png";
+import backArrowRed from "./back_arrow_red.png";
+import closeRed from "./close_red.png";
+import mouse from "./mouse.png";
+
 import React from "react";
 
 import "./App.css";
@@ -80,11 +87,11 @@ function App() {
   }
 
   const changeArrowImage = (event) => {
-    event.target.src = "./back_arrow_red.png";
+    event.target.src = backArrowRed;
   };
 
   const clearArrowImage = (event) => {
-    event.target.src = "./back_arrow_clear.png";
+    event.target.src = backArrowClear;
   };
 
   function arrowClicked(event) {
@@ -94,11 +101,11 @@ function App() {
   }
 
   const changeCloseImage = (event) => {
-    event.target.src = "./close_red.png";
+    event.target.src = closeRed;
   };
 
   const clearCloseImage = (event) => {
-    event.target.src = "./close_clear.png";
+    event.target.src = closeClear
   };
 
   function closeClicked(event) {
@@ -161,14 +168,14 @@ function App() {
   return (
     <div className="App">
       <img
-        src="./back_arrow_clear.png"
+        src={backArrowClear}
         onMouseOver={changeArrowImage}
         onMouseLeave={clearArrowImage}
         onClick={arrowClicked}
         className="background"
       />
       <img
-        src="./mouse1.png"
+        src={mouse1}
         style={{ left: "45%", top: "30%" }}
         className="UI"
       />
@@ -201,7 +208,7 @@ function App() {
         Press the back icon to enter the previous article.
       </h1>
       <img
-        src="./close_clear.png"
+        src={closeClear}
         style={{ left: "92%", top: "1%", width: "4%" }}
         onMouseOver={changeCloseImage}
         onMouseLeave={clearCloseImage}
