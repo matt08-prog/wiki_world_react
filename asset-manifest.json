@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wiki_world_react/static/css/main.42e26088.chunk.css",
+    "main.js": "/wiki_world_react/static/js/main.b47bed1f.chunk.js",
+    "main.js.map": "/wiki_world_react/static/js/main.b47bed1f.chunk.js.map",
+    "runtime-main.js": "/wiki_world_react/static/js/runtime-main.efaec428.js",
+    "runtime-main.js.map": "/wiki_world_react/static/js/runtime-main.efaec428.js.map",
+    "static/js/2.817619f0.chunk.js": "/wiki_world_react/static/js/2.817619f0.chunk.js",
+    "static/js/2.817619f0.chunk.js.map": "/wiki_world_react/static/js/2.817619f0.chunk.js.map",
+    "static/js/3.59261b71.chunk.js": "/wiki_world_react/static/js/3.59261b71.chunk.js",
+    "static/js/3.59261b71.chunk.js.map": "/wiki_world_react/static/js/3.59261b71.chunk.js.map",
+    "index.html": "/wiki_world_react/index.html",
+    "static/css/main.42e26088.chunk.css.map": "/wiki_world_react/static/css/main.42e26088.chunk.css.map",
+    "static/js/2.817619f0.chunk.js.LICENSE.txt": "/wiki_world_react/static/js/2.817619f0.chunk.js.LICENSE.txt",
+    "static/media/close_red.7c7fd6de.png": "/wiki_world_react/static/media/close_red.7c7fd6de.png",
+    "static/media/mouse.e0b64593.png": "/wiki_world_react/static/media/mouse.e0b64593.png",
+    "static/media/mouse1.441752ee.png": "/wiki_world_react/static/media/mouse1.441752ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efaec428.js",
+    "static/js/2.817619f0.chunk.js",
+    "static/css/main.42e26088.chunk.css",
+    "static/js/main.b47bed1f.chunk.js"
+  ]
+}
